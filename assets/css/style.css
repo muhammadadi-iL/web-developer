@@ -132,6 +132,11 @@ body {
     font-family: var(--font-primary);
     color: var(--color-body);
     font-weight: var(--p-regular);
+	
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
